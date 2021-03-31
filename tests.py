@@ -6,13 +6,13 @@ import main;
 import datetime;
 
 year = 2021
-month = 1
-day = 4
+month = 3
+day = 31
 
 def test_code():
     assert main.addCheck(2,2,4) == True
     assert main.addCheck(6,5,11) == True
-    assert main.addCheck(6,5,12) == Frue
+    assert main.addCheck(6,5,12) == False
     
 
 def test_late():
