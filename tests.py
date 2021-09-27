@@ -6,8 +6,8 @@ import main;
 import datetime;
 
 year = 2021
-month = 3
-day = 31
+month = 8
+day = 8
 
 def test_code():
     assert main.addCheck(2,2,4) == True
